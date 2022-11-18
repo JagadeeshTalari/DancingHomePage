@@ -304,3 +304,231 @@ img[alt="dance_pic"]{
     rotate: 20deg;
 }
 
+@media screen and (min-width:1280px)  and (max-width:1430px){
+
+    .container{
+        overflow-x: clip;
+    }
+
+    .inner_container{
+        background-color: transparent;
+        padding: 3rem 2rem 0rem 2rem;
+        color: black;
+        width: 99vw;
+        height: 75%;
+    
+    }
+
+    .content{
+        height: 100vh;
+        width: 40%;
+        background-image: url("../asset/pexels-rfstudio-3819572.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #ffffff; 
+        margin-left: -1.2rem; 
+    }
+    
+    .inner_container{
+        padding: 2rem 0rem 0rem 0rem;
+    }
+
+    nav{
+        width: 95%;
+        height: 10%;
+        margin: auto;  
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+
+    .nav-logo{
+        height: 2rem;
+        margin-left: 5%;
+        filter: invert();
+    }
+
+    .nav-list{
+        width: 80%;
+        display: flex;
+        gap: 2.7rem;
+        align-items: center;
+        justify-content: flex-end;
+        color: #716b6b;
+        font-size: 12px;
+    }
+
+    .nav-line{
+        width: 30%;
+        border-bottom: 2px solid rgb(96, 94, 94);
+    }
+    
+/* ---------   SECTION  -->> Content Section     ---------*/
+
+
+    .inner_content_container{
+    
+        margin-left: auto;
+        margin-top: 1rem;
+        width: 55%;
+        height: 100%;
+        position: relative;
+        
+    }
+
+    .creativity, .creativity>span {
+        
+    
+        line-height: 90px;
+        font-size: 90px;
+        font-family: "Merriweather";
+        color: #353434;
+        font-weight: 900;
+        
+    }
+
+    .creativity{
+        color: transparent;
+        -webkit-text-stroke: 1px #353434;
+    }
+
+    .creativity>span{
+        color: #353434;
+        position: absolute;
+        left: 6rem;
+    }
+
+    .part1{
+        width: 95%;
+        height: 45%;
+    }
+
+    .part1_description{
+        width: 40%;
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+
+    .text1{
+        width: 60%;
+        align-self: flex-end;
+        font-size: 24px;
+        color: #7a7878;
+    }
+
+    /* part 2 inner content section */
+
+    .part2{
+        width: 95%;
+        height: 58%;
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* overflow-y: hidden; */
+    }
+
+    .category{
+        width: 20%;
+        margin-left: 0.5rem;
+    }
+
+    .path_animation{
+        width: 15%;
+    }
+
+    .line_animation{
+        height: 100%;
+        width: 1px;
+        background-color: #716b6b;
+        position: absolute;
+        left: 0.1rem;
+    }
+
+    .path_naming{
+        width: 85%;
+        gap: 2.5rem;
+        align-items: flex-start;
+        color: #716b6b;
+    }
+
+    .circle{
+        height: 13px;
+        width: 13px;
+        border-radius: 50%;
+        background-color: #716b6b;
+        text-align: center;
+    }
+
+    .circle:hover{
+        background-color: #353434;
+        height: 15px;
+        width: 15px;
+    }
+
+    .path_naming>p{
+       font-size: 14px;
+    }
+    
+    .path_naming>p:hover{
+        color: #353434;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .part2_para{
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .symbol{
+        font-family: 'monsterrat';
+        font-size: 85px;
+        font-weight: 900;
+        color: #353434;
+        margin-top: -7vh;
+    
+    }
+    
+    img[alt="dance_pic"]{
+        width: 310px;
+        clip-path: inset(0 0 2rem 0);
+    
+    }
+
+    .arrow_mainline{
+        height: 26%;
+        width: 2px;
+        background-color: #424141;
+        position: absolute;
+        left: 3.6rem;
+        bottom: 7rem;
+    
+    }
+
+    .arrow_rightline{
+        font-size: 20px;
+        position: absolute;
+        color: #353434;
+        bottom: 6.5rem;
+        left: 2.85rem;
+        rotate: -20deg;
+    }
+
+    .arrow_leftline{
+        font-size: 20px;
+        position: absolute;
+        color: #353434;
+        bottom: 6.5rem;
+        left: 3.7rem;
+        rotate: 20deg;
+    }
+
+
+
+}
+
