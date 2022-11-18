@@ -304,7 +304,7 @@ img[alt="dance_pic"]{
     rotate: 20deg;
 }
 
-@media screen and (min-width:1280px)  and (max-width:1430px){
+@media screen and (min-width:1280px)  and (max-width:1439px){
 
     .container{
         overflow-x: clip;
@@ -532,3 +532,213 @@ img[alt="dance_pic"]{
 
 }
 
+@media screen and (min-width:1024px) and (max-width:1279px) {
+    
+    .inner_container{
+        background-color: transparent;
+        padding: 1.25rem 1rem 0rem 1rem;
+        color: black;
+        width: 100vw;
+        height: 75%;
+    
+    }
+
+    .nav-logo{
+        height: 1.7rem;
+        margin-left: 5%;
+        filter: invert();
+    }
+
+    .nav-list{
+        width: 80%;
+        display: flex;
+        gap: 2.75rem;
+        align-items: center;
+        justify-content: flex-end;
+        color: #716b6b;
+        font-size: 11px;
+    }
+
+    .nav-line{
+        width: 30%;
+        border-bottom: 2px solid rgb(96, 94, 94);
+    }
+
+    /* ---------   SECTION  -->> Content Section     ---------*/
+
+    .inner_content_container{
+    
+        margin-left: auto;
+        margin-top: 1rem;
+        width: 58%;
+        height: 100%;
+        position: relative;
+        
+    }
+
+    .creativity, .creativity>span {
+        
+    
+        line-height: 80px;
+        font-size: 80px;
+        font-family: "Merriweather";
+        color: #353434;
+        font-weight: 900;
+        
+    }
+
+    .creativity{
+        color: transparent;
+        -webkit-text-stroke: 1px #353434;
+    }
+
+    .creativity>span{
+        color: #353434;
+        position: absolute;
+        left: 5.8rem;
+    }
+
+    .part1_description{
+        width: 55%;
+        margin-left: 0.2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+
+    .part1_description{
+        width: 38%;
+        margin-left: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 0.75rem;
+    
+    }
+
+    .text1{
+        width: 60%;
+        align-self: flex-end;
+        font-size: 20px;
+        color: #7a7878;
+    }
+
+    
+
+    .btn{
+        padding: 0.7rem 1rem;
+        background-color: #353434;
+        color: #f3f1ef;
+        font-size: 12px;
+        font-weight: 600;
+        border: none;
+    }
+
+    /* part 2 inner content section */
+
+    .category{
+        width: 20%;
+        margin-left: 0.3rem;
+    }
+
+    .line_animation{
+        height: 100%;
+        width: 1px;
+        background-color: #716b6b;
+        position: absolute;
+        left: 0.25rem;
+    }  
+    
+    .circle{
+        height: 11px;
+        width: 11px;
+        border-radius: 50%;
+        background-color: #716b6b;
+        text-align: center;
+    }
+
+    .circle_animation{
+        gap: 2.5rem;
+    }
+
+    .path_naming{
+        width: 85%;
+        gap: 2rem;
+        align-items: flex-start;
+        color: #716b6b;
+    }
+
+    .circle{
+        height: 11px;
+        width: 11px;
+        border-radius: 50%;
+        background-color: #716b6b;
+        text-align: center;
+    }
+
+    .circle:hover{
+        background-color: #353434;
+        height: 13px;
+        width: 13px;
+    }
+
+    .path_naming>p{
+       font-size: 12px;
+    }
+    
+    .path_naming>p:hover{
+        color: #353434;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .symbol{
+        font-family: 'monsterrat';
+        font-size: 70px;
+        font-weight: 900;
+        color: #353434;
+        margin-top: -8vh;
+    
+    }
+
+    .part2_para{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    img[alt="dance_pic"]{
+        width: 295px;
+        clip-path: inset(0 0 2rem 0);
+    
+    }
+
+    .arrow_mainline{
+        height: 26%;
+        width: 2px;
+        background-color: #424141;
+        position: absolute;
+        left: 3.6rem;
+        bottom: 4rem;
+    
+    }
+
+    .arrow_rightline{
+        font-size: 20px;
+        position: absolute;
+        color: #353434;
+        bottom: 3.5rem;
+        left: 2.85rem;
+        rotate: -20deg;
+    }
+
+    .arrow_leftline{
+        font-size: 20px;
+        position: absolute;
+        color: #353434;
+        bottom: 3.5rem;
+        left: 3.7rem;
+        rotate: 20deg;
+    }
+
+}
