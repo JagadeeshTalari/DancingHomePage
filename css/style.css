@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    overflow: none;
+    font-family: "poppins";
+}
+
+body {
+ 
+  background-color: #f3f1ef;
+  color: black;
+}
+
+/************************* HEADER SECTION ***********************/
+
+.content{
+    height: 100vh;
+    width: 45%;
+    background-image: url("../asset/pexels-rfstudio-3819572.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: #ffffff; 
+    margin-left: -2rem; 
+}
+
+.inner_container{
+    background-color: transparent;
+    padding: 3rem 2rem 0rem 2rem;
+    color: black;
+    width: 95vw;
+    height: 75%;
+
+}
+
+
+/* ---------    HEADER SECTION  -->> Navbar Section     ---------*/
+
+nav{
+    width: 100%;
+    height: 10%;
+    margin-top: 1%;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.nav-logo{
+    height: 2.2rem;
+    margin-left: 5%;
+    filter: invert();
+}
+
+.nav-list{
+    width: 80%;
+    display: flex;
+    gap: 3.5rem;
+    align-items: center;
+    justify-content: flex-end;
+    color: #716b6b;
+    font-size: 14px;
+}
+
+.nav-list-items:hover{
+    
+    color: #000000;
+}
+
+.nav-line{
+    width: 35%;
+    border-bottom: 2px solid rgb(96, 94, 94);
+}
+
+
+/* ---------   SECTION  -->> Content Section     ---------*/
+
+.inner_content_container{
+ 
+    margin-left: auto;
+    margin-top: 1rem;
+    width: 60%;
+    height: 100%;
+    position: relative;
+    
+}
+
+
+
+.creativity, .creativity>span {
+    
+   
+    line-height: 110px;
+    font-size: 110px;
+    font-family: "Merriweather";
+    color: #353434;
+    font-weight: 900;
+    
+}
+
+.creativity{
+    color: transparent;
+    -webkit-text-stroke: 1px #353434;
+}
+
+
+.creativity>span{
+    color: #353434;
+    position: absolute;
+    left: 8rem;
+}
+
+.part1{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.part1_description{
+    width: 30%;
+    margin-left: 11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.btn{
+    padding: 1rem 2rem;
+    background-color: #353434;
+    color: #f3f1ef;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+}
+
+.part1_box1{
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text1{
+    width: 60%;
+    align-self: flex-end;
+    font-size: 30px;
+    color: #716b6b;
+}
+
+
+.part1_box1_list, .path_animation{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
+.part2{
+    width: 100%;
+    height: 58%;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* overflow-y: hidden; */
+}
+
+.category{
+    width: 20%;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.path_animation{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.circle_animation{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3.05rem;
+    align-items: flex-end;
+}
+
+.line_animation{
+    height: 100%;
+    width: 1.2px;
+    background-color: #716b6b;
+    position: absolute;
+    left: 0.52rem;
+}
+
+.path_naming{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2.35rem;
+    align-items: flex-start;
+    color: #716b6b;
+}
+
+
+.circle{
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #716b6b;
+    text-align: center;
+}
+
+.circle:hover{
+    background-color: #353434;
+    height: 16px;
+    width: 16px;
+}
+
+.path_naming>p:hover{
+    color: #353434;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.part2_description{
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Merriweather";
+    gap: 0.75rem;
+    overflow-y: hidden;
+    
+}
+
+
+
+.symbol{
+    font-family: 'monsterrat';
+    font-size: 90px;
+    font-weight: 900;
+    color: #353434;
+    margin-top: -8vh;
+
+}
+
+
+img[alt="dance_pic"]{
+    width: 400px;
+    clip-path: inset(0 0 2rem 0);
+
+}
+
+.arrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 10%;
+    position: relative;
+}
+
+.arrow_mainline{
+    height: 40%;
+    width: 2px;
+    background-color: #424141;
+    position: absolute;
+    left: 3.6rem;
+
+}
+.arrow_rightline{
+    font-size: 26px;
+    position: absolute;
+    color: #353434;
+    bottom: 5.4rem;
+    left: 2.7rem;
+    rotate: -20deg;
+}
+.arrow_leftline{
+    font-size: 26px;
+    position: absolute;
+    color: #353434;
+    bottom: 5.4rem;
+    left: 3.7rem;
+    rotate: 20deg;
+}
+
